@@ -1,1 +1,1 @@
-ls -t | xargs echo | sed 's/ /,/g'
+ls -m -p -t --ignore=' .??*' | tr -d '[:blank]'
