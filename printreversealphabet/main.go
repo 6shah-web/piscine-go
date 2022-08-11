@@ -20,7 +20,6 @@ func main() {
 	z01.PrintRune('n')
 	z01.PrintRune('m')
 	z01.PrintRune('l')
-	z01.PrintRune('l')
 	z01.PrintRune('k')
 	z01.PrintRune('j')
 	z01.PrintRune('i')
