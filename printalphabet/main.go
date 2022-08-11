@@ -1,9 +1,14 @@
 package main
 
 import (
-	"fmt"
+	"github.com/01-edu/"
+	"github.com/01-edu/z01"
 )
 
 func main() {
-	fmt.Println("abcdefghijklmnopqrstuvwxyz")
+	
+    for ch := 'a'; ch <= 'z'; ch++ {
+        fmt.Printf("%c   ", ch)
+		z01.PrintRune ('\n')
 }
+
