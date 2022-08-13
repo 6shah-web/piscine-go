@@ -2,15 +2,14 @@ package piscine
 
 import "github.com/01-edu/z01"
 
-func a(r rune) {
-	z01.PrintRune(r)
-}
-
 func IsNegative(nb int) {
-	if nb < 0 {
-		a(84)
+
+	if nb <= 0 {
+
+		z01.PrintRune('T')
+
 	} else {
-		a(70)
+
+		z01.PrintRune('F')
 	}
-	a('\n')
 }
