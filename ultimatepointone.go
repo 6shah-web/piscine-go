@@ -1,10 +1,5 @@
-package main
+package piscine
 
-import (
-	"fmt"
-)
-
-func main() {
-
-	*n = *n = *n = 1
+func UltimatePointOne(n ***int) {
+	***n = 1
 }
