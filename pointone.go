@@ -5,7 +5,7 @@ import (
 )
 
 func PointOne(n *int) {
-	n * int = 1
+	*n = 1
 
 	z01.PrintRune(n * int)
 }
