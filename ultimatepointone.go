@@ -1,5 +1,10 @@
-package piscine
+package main
 
-func UltimatePointOne(n ***int) {
-	*n = *n = *n == 1
+import (
+	"fmt"
+)
+
+func main() {
+
+	*n = *n = *n = 1
 }
